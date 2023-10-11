@@ -11,17 +11,12 @@ local nmappings = {
 	{ from = "`",             to = "~",                                                                   mode = mode_nv },
 
 	-- Movement
-	{ from = "u",             to = "k",                                                                   mode = mode_nv },
-	{ from = "e",             to = "j",                                                                   mode = mode_nv },
-	{ from = "n",             to = "h",                                                                   mode = mode_nv },
-	{ from = "i",             to = "l",                                                                   mode = mode_nv },
-	{ from = "U",             to = "5k",                                                                  mode = mode_nv },
-	{ from = "E",             to = "5j",                                                                  mode = mode_nv },
-	{ from = "N",             to = "0",                                                                   mode = mode_nv },
-	{ from = "I",             to = "$",                                                                   mode = mode_nv },
+	{ from = "K",             to = "5k",                                                                  mode = mode_nv },
+	{ from = "J",             to = "5j",                                                                  mode = mode_nv },
+	{ from = "H",             to = "0",                                                                   mode = mode_nv },
+	{ from = "L",             to = "$",                                                                   mode = mode_nv },
 	{ from = "gu",            to = "gk",                                                                  mode = mode_nv },
 	{ from = "ge",            to = "gj",                                                                  mode = mode_nv },
-	{ from = "h",             to = "e",                                                                   mode = mode_nv },
 	{ from = "<C-U>",         to = "5<C-y>",                                                              mode = mode_nv },
 	{ from = "<C-E>",         to = "5<C-e>",                                                              mode = mode_nv },
 	{ from = "ci",            to = "cl", },
@@ -31,9 +26,7 @@ local nmappings = {
 	{ from = "yh",            to = "ye", },
 
 	-- Actions
-	{ from = "l",             to = "u" },
-	{ from = "k",             to = "i",                                                                   mode = mode_nv },
-	{ from = "K",             to = "I",                                                                   mode = mode_nv },
+
 
 	-- Useful actions
 	{ from = ",.",            to = "%",                                                                   mode = mode_nv },
