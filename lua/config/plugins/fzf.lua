@@ -48,8 +48,8 @@ return {
 					["f4"]         = "toggle-preview",
 					["shift-down"] = "preview-page-down",
 					["shift-up"]   = "preview-page-up",
-					["ctrl-e"]     = "down",
-					["ctrl-u"]     = "up",
+					["ctrl-j"]     = "down",
+					["ctrl-k"]     = "up",
 				},
 			},
 			previewers = {
